@@ -28,6 +28,7 @@ body {
 .logo{
     height: 15mm;
     padding: 3px;
+    padding-left: 30px;
 }
 
 .top{
@@ -52,6 +53,109 @@ body {
     display: flex;
 }
 
+.action{
+    background-color: #FFD0BD;
+    text-align: center;
+}
+
+.sentence{
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 30px;
+    padding-bottom: 16px;
+    display: grid;
+    justify-content: center;
+}
+
+p.bold{
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: lighter;
+    margin: 0;
+   
+}
+
+
+
+
+.call-btn{
+    padding: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    background-color: #FFD0BD;
+    border: 3px solid black;
+}
+
+
+.call-btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.message {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    display: grid;
+    justify-content: center;
+}
+
+.message-container{
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    
+    font-family: Manrope;
+    font-size: 30px;
+    font-weight: 10px;
+    
+    
+   /* shadow */
+        
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+    
+}
+
+.message-container:hover{
+    position: relative;
+    top: -5px;
+}
+
+.footer{
+    background-color: black;
+    font-family: Manrope;
+    color: white;
+    text-align: center;
+    justify-content: start;
+    
+}
+
+.contact{
+   text-align: center;
+   
+   display: inline-block;
+    position: relative;
+   
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.footer-logo{
+    width: 20%;
+    
+}
 
 
 
@@ -62,12 +166,48 @@ body {
     }
 }
 
+
 /* mobile */
 @media only screen and (max-width: 600px) {
 
-.top-image{
-    width: 100%
+.contact{
+    text-align: center;
+    padding-left: 0%;
 }
+
+.message-container{
+    font-size: 15px;
+    padding: 20px;
+}
+
+.message {
+    padding: 30px;
+}
+
+.sentence{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+p.bold{
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: lighter;
+    margin: 0;
+   
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+
+.footer-logo{
+    width: 80%;
+    
+}
+
+    
 
 .row{
     display: block;
@@ -85,4 +225,36 @@ section p {
     font-size: 16px;
 }
 
+}
+
+.calll {
+    margin: -10px;
+    padding-bottom: 60px;
+    position: absolute;
+    
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.call-call{
+
+    padding: 10px;
+
+    margin: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    background-color: var(--white);
+    border: 2px solid black;
+
+}
+
+
+.call-call:hover{
+    color: white;
+    background-color: var(--primary);
 }
